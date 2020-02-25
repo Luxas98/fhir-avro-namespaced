@@ -5,7 +5,7 @@
     "fields": [
         {"name": "location", "type": "fhir.dstu3.Reference"},
         {"name": "status", "type": ["null", "string"]},
-        {"name": "physicalType", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "physicalType", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "period", "type": ["null", "fhir.dstu3.Period"]}
     ]
 }

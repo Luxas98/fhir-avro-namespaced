@@ -10,7 +10,7 @@
         {"name": "statusHistory", "type": [{"type":"array", "items": "fhir.dstu3.StatusHistory"}, "null"]},
         {"name": "class", "type": "fhir.dstu3.Coding"},
         {"name": "type", "type": [{"type": "array", "items":"fhir.dstu3.CodeableConcept"}, "null"]},
-        {"name": "serviceType", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "serviceType", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "subject", "type": ["null", "fhir.dstu3.Reference"]},
         {"name": "participant", "type": [{"type": "array", "items":"fhir.dstu3.Participant"}, "null"]},
         {"name": "period", "type": ["null", "fhir.dstu3.Period"]},

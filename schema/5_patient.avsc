@@ -9,7 +9,7 @@
         {"name": "gender", "type": ["null", "string"]},
         {"name": "birthDate", "type": ["null", "string"]},
         {"name": "age", "type": ["null", "string"]},
-        {"name": "maritalStatus", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "maritalStatus", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "deceasedBoolean", "type": ["null", "boolean"]},
         {"name": "deceasedDateTime", "type": ["null", "string"]},
         {"name": "managingOrganization", "type": ["null", "fhir.dstu3.Reference"]},

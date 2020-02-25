@@ -4,7 +4,7 @@
     "name": "UsageContext",
     "fields": [
         {"name": "code", "type": "fhir.dstu3.Coding"},
-        {"name": "valueCodeableConcept", "type": ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "valueCodeableConcept", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "valueQuantity", "type": ["null","fhir.dstu3.Quantity"]},
         {"name": "valueRange", "type": ["null","fhir.dstu3.Range"]},
         {"name": "valueReference", "type": ["null","fhir.dstu3.Reference"]}

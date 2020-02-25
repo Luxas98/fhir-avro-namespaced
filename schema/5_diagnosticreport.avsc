@@ -21,6 +21,6 @@
         {"name": "result", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
         {"name": "imagingStudy", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
          {"name": "conclusion", "type": ["null", "string"]},
-        {"name": "conclusionCode", "type": ["null","fhir.dstu3.CodeableConcept"]}
+        {"name": "conclusionCode", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]}
     ]
 }

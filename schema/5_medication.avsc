@@ -8,7 +8,7 @@
         {"name": "code", "type": "fhir.dstu3.CodeableConcept"},
         {"name": "status", "type": ["null", "string"]},
         {"name": "manufacturer", "type": ["null", "fhir.dstu3.Reference"]},
-        {"name": "form", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "form", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "amount", "type": ["null", "fhir.dstu3.Ratio"]},
         {"name": "ingredient", "type": [{"type": "array", "items": "fhir.dstu3.Ingredient"}, "null"]},
         {"name": "batch", "type": ["null", "fhir.dstu3.Batch"]}

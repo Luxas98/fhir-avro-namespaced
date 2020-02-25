@@ -3,10 +3,10 @@
     "type": "record",
     "name": "Target",
     "fields": [
-        {"name": "measure", "type": ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "measure", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "detailQuantity", "type":["null","fhir.dstu3.Quantity"]},
         {"name": "detailRange", "type":["null", "fhir.dstu3.Range"]},
-        {"name": "detailCodeableConcept", "type":["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "detailCodeableConcept", "type":["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "detailString", "type": ["null", "string"]},
         {"name": "detailBoolean", "type":["null", "string", "boolean"]},
         {"name": "detailInteger", "type":["null", "int", "double"]},

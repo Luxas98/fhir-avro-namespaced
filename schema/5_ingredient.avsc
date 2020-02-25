@@ -4,7 +4,7 @@
     "name": "Ingredient",
 
     "fields": [
-        {"name": "itemCodeableConcept", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "itemCodeableConcept", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "itemReference", "type": ["null", "fhir.dstu3.Reference"]},
         {"name": "isActive", "type": "boolean"},
         {"name": "strength", "type": "fhir.dstu3.Ratio"}

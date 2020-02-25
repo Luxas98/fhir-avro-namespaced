@@ -5,6 +5,6 @@
     "fields": [
         {"name": "event", "type": [{"type": "array", "items": "string"}, "null"]},
         {"name": "repeat", "type": ["null", "fhir.dstu3.Repeat"]},
-        {"name": "code", "type": ["null", "fhir.dstu3.CodeableConcept"]}
+        {"name": "code", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]}
     ]
 }

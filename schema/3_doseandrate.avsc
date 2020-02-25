@@ -3,7 +3,7 @@
     "type": "record",
     "name": "DoseAndRate",
     "fields": [
-        {"name": "type", "type": ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "type", "type": ["null","string" , "fhir.dstu3.CodeableConcept"]},
         {"name": "doseRange", "type": ["null","fhir.dstu3.Range"]},
         {"name": "doseQuantity", "type": ["null","fhir.dstu3.Quantity"]},
         {"name": "rateRatio", "type": ["null","fhir.dstu3.Ratio"]},

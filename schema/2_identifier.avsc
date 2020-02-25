@@ -4,7 +4,7 @@
     "name": "Identifier",
     "fields": [
         {"name": "use", "type": ["string", "null"]},
-        {"name": "type", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "type", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "system", "type": ["string", "null"]},
         {"name": "value", "type": ["string", "null"]},
         {"name": "period", "type": ["null","fhir.dstu3.Period"]},

@@ -5,12 +5,12 @@
     "fields": [
         {"name": "preAdmissionIdentifier", "type": "fhir.dstu3.Identifier"},
         {"name": "origin", "type": ["null", "fhir.dstu3.Reference"]},
-        {"name": "admitSource", "type": ["null", "fhir.dstu3.CodeableConcept"]},
-        {"name": "reAdmission", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "admitSource", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
+        {"name": "reAdmission", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "dietPreference", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
         {"name": "specialCourtesy", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
         {"name": "specialArragement", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
         {"name": "destination", "type": ["null", "fhir.dstu3.Reference"]},
-        {"name": "dischargeDisposition", "type": ["null", "fhir.dstu3.CodeableConcept"]}
+        {"name": "dischargeDisposition", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]}
     ]
 }

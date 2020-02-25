@@ -3,9 +3,9 @@
     "type": "record",
     "name": "ReferenceRange",
     "fields": [
-        {"name": "low", "type": ["null",  "fhir.dstu3.Quantity"]},
-        {"name": "high", "type": ["null",  "fhir.dstu3.Quantity"]},
-        {"name": "type", "type": ["null",  "fhir.dstu3.CodeableConcept"]},
+        {"name": "low", "type": ["null", "fhir.dstu3.Quantity"]},
+        {"name": "high", "type": ["null", "fhir.dstu3.Quantity"]},
+        {"name": "type", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "appliesTo", "type": ["null",  {"type": "array", "items": "fhir.dstu3.CodeableConcept"}]},
         {"name": "age", "type": ["null",  "fhir.dstu3.Range"]},
         {"name": "text", "type": ["null",  "string"]}

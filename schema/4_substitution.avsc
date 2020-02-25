@@ -4,7 +4,7 @@
     "name": "Substitution",
     "fields": [
         {"name": "wasSubstituted", "type": "boolean"},
-        {"name": "type", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "type", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "reason", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
         {"name": "responsibleParty", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]}
     ]

@@ -3,7 +3,7 @@
     "type": "record",
     "name": "Performer",
     "fields": [
-        {"name": "function", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "function", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "actor", "type": "fhir.dstu3.Reference"},
         {"name": "onBehalfOf", "type": ["null", "fhir.dstu3.Reference"]}
     ]

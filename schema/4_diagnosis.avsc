@@ -4,7 +4,7 @@
     "name": "Diagnosis",
     "fields": [
         {"name": "condition", "type": "fhir.dstu3.Reference"},
-        {"name": "use", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "use", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "rank", "type": ["null", "int"]}
     ]
 }

@@ -4,7 +4,7 @@
     "name": "Qualification",
 
     "fields": [
-        {"name": "code", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "code", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
         {"name": "period", "type": ["null", "fhir.dstu3.Period"]},
         {"name": "issuer", "type": ["null", "fhir.dstu3.Reference"]}

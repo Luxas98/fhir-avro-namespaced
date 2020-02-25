@@ -14,7 +14,7 @@
         {"name": "mode", "type": ["null", "string"]},
         {"name": "name", "type": ["null", "string"]},
         {"name": "description", "type": ["null", "string"]},
-        {"name": "physicalType", "type": ["fhir.dstu3.CodeableConcept",{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "physicalType", "type": ["fhir.dstu3.CodeableConcept",{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "string", "null"]},
         {"name": "position", "type": ["null", "fhir.dstu3.Position"]},
         {"name": "partOf", "type": ["null", "fhir.dstu3.Reference"]},
         {"name": "managingOrganization", "type": ["null", "fhir.dstu3.Reference"]}
