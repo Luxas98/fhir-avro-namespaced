@@ -1,0 +1,14 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Quantity",
+    "fields": [
+        {"name": "value", "type": ["null", "double", "int"]},
+        {"name": "comparator", "type": ["null", "string"]},
+        {"name": "unit", "type": ["null", "string"]},
+        {"name": "system", "type": ["null", "string"]},
+        {"name": "code", "type": ["null", "string"]}
+    ]
+}
+
+

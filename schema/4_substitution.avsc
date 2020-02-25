@@ -1,0 +1,11 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Substitution",
+    "fields": [
+        {"name": "wasSubstituted", "type": "boolean"},
+        {"name": "type", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "reason", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "responsibleParty", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]}
+    ]
+}

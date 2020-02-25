@@ -1,0 +1,9 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "StatusHistory",
+    "fields": [
+        {"name": "code", "type": "string"},
+        {"name": "period", "type": "fhir.dstu3.Period"}
+    ]
+}

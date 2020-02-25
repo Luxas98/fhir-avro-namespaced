@@ -1,0 +1,19 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "QuestionnaireEnableWhen",
+    "fields": [
+        {"name": "question", "type": "string"},
+        {"name": "operator", "type": "string"},
+        {"name": "answerBoolean", "type": ["null","boolean"]},
+        {"name": "answerDecimal", "type": ["null","double"]},
+        {"name": "answerInteger", "type": ["null","int"]},
+        {"name": "answerDate", "type": ["null","string"]},
+        {"name": "answerDateTime", "type": ["null","string"]},
+        {"name": "answerTime", "type": ["null","string"]},
+        {"name": "answerString", "type": ["null","string"]},
+        {"name": "answerCoding", "type": ["null","fhir.dstu3.Coding"]},
+        {"name": "answerQuantity", "type": ["null","fhir.dstu3.Quantity"]},
+        {"name": "answerReference", "type": ["null","fhir.dstu3.Reference"]}
+    ]
+}

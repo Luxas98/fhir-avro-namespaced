@@ -1,0 +1,7 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Batch",
+    "fields": [{"name": "lotNumber", "type": ["null", "string"]},
+               {"name": "expirationDate", "type": ["null", "string"]}]
+}

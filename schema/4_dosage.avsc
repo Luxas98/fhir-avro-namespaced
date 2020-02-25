@@ -1,0 +1,21 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Dosage",
+    "fields": [
+        {"name": "sequence", "type": ["null","int"]},
+        {"name": "text", "type": ["null","string"]},
+        {"name": "additionalInstruction", "type": ["fhir.dstu3.CodeableConcept", { "type": "array", "items": "fhir.dstu3.CodeableConcept"},"null"]},
+        {"name": "patientInstruction", "type": ["null","string"]},
+        {"name": "timing", "type": ["null","fhir.dstu3.Timing"]},
+        {"name": "asNeeded", "type": ["null","boolean"]},
+        {"name": "asNeededCodeableConcept", "type": ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "site", "type": ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "route", "type": ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "method", "type": ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "doseAndRate", "type": ["fhir.dstu3.DoseAndRate", {"type": "array", "items": "fhir.dstu3.DoseAndRate"},"null"]},
+        {"name": "maxDosePerPeriod", "type": ["null","fhir.dstu3.Ratio"]},
+        {"name": "maxDosePerAdministration", "type": ["null","fhir.dstu3.Quantity"]},
+        {"name": "maxDosePerLifetime", "type": ["null","fhir.dstu3.Quantity"]}
+    ]
+}

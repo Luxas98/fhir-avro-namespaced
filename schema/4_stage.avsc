@@ -1,0 +1,10 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Stage",
+    "fields": [
+        {"name": "summary", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "assessment", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "type", "type": ["null", "fhir.dstu3.CodeableConcept"]}
+    ]
+}

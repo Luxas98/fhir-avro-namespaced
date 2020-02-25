@@ -1,0 +1,17 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Target",
+    "fields": [
+        {"name": "measure", "type": ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "detailQuantity", "type":["null","fhir.dstu3.Quantity"]},
+        {"name": "detailRange", "type":["null", "fhir.dstu3.Range"]},
+        {"name": "detailCodeableConcept", "type":["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "detailString", "type": ["null", "string"]},
+        {"name": "detailBoolean", "type":["null", "string", "boolean"]},
+        {"name": "detailInteger", "type":["null", "int", "double"]},
+        {"name": "detailRatio", "type":["null", "fhir.dstu3.Ratio"]},
+        {"name": "dueDate", "type": ["null", "string"]},
+        {"name": "dueDuration", "type": ["null", "fhir.dstu3.Quantity"]}
+    ]
+}

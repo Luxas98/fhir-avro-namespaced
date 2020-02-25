@@ -1,0 +1,9 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Period",
+    "fields": [
+        {"name": "start", "type": ["string", "null"]},
+        {"name": "end", "type": ["string", "null"]}
+    ]
+}

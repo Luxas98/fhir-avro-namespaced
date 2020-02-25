@@ -1,0 +1,31 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "MedicationAdministration",
+    "fields": [
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "resourceType", "type": "string"},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
+        {"name":  "contained", "type":  [{"type":  "array", "items": "fhir.dstu3.Medication"}, "null" ]},
+        {"name": "partOf", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "status", "type": "string"},
+        {"name": "statusReason", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "category", "type": ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "medicationCodeableConcept", "type": ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "medicationReference", "type": ["null","fhir.dstu3.Reference"]},
+        {"name": "subject", "type": "fhir.dstu3.Reference"},
+        {"name": "context", "type": ["null","fhir.dstu3.Reference"]},
+        {"name": "supportingInformation", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "effectiveDateTime", "type": ["null", "string"]},
+        {"name": "effectivePeriod", "type": ["null", "fhir.dstu3.Period"]},
+        {"name": "performer", "type": [{"type": "array", "items": "fhir.dstu3.Performer"}, "null"]},
+        {"name": "reasonCode", "type": [{"type": "array", "items":"fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "reasonReference", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "request", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "device", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "note", "type": [{"type": "array", "items":"string"}, "null"]},
+        {"name": "dosage", "type": ["null", "fhir.dstu3.Dosage"]},
+        {"name": "eventHistory", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]}
+
+    ]
+}

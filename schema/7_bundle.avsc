@@ -1,0 +1,25 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Bundle",
+    "fields": [
+        {"name": "Patient", "type": [{"type": "array", "items": "fhir.dstu3.Patient"}, "null"]},
+        {"name": "Allergyintolerance", "type": [{"type": "array", "items": "fhir.dstu3.AllergyIntolerance"}, "null"]},
+        {"name": "Condition", "type": [{"type": "array", "items": "fhir.dstu3.Condition"}, "null"]},
+        {"name": "DiagnosticReport", "type": [{"type": "array", "items": "fhir.dstu3.DiagnosticReport"}, "null"]},
+        {"name": "Encounter", "type": [{"type": "array", "items": "fhir.dstu3.Encounter"}, "null"]},
+        {"name": "Goal", "type": [{"type": "array", "items": "fhir.dstu3.Goal"}, "null"]},
+        {"name": "Ingredient", "type": [{"type": "array", "items": "fhir.dstu3.Ingredient"}, "null"]},
+        {"name": "Location", "type": [{"type": "array", "items": "fhir.dstu3.Location"}, "null"]},
+        {"name": "Medication", "type": [{"type": "array", "items": "fhir.dstu3.Medication"}, "null"]},
+        {"name": "MedicationAdministration", "type": [{"type": "array", "items": "fhir.dstu3.MedicationAdministration"}, "null"]},
+        {"name": "MedicationDispense", "type": [{"type": "array", "items": "fhir.dstu3.MedicationDispense"}, "null"]},
+        {"name": "MedicationStatement", "type": [{"type": "array", "items": "fhir.dstu3.MedicationStatement"}, "null"]},
+        {"name": "Observation", "type": [{"type": "array", "items": "fhir.dstu3.Observation"}, "null"]},
+        {"name": "Organization", "type": [{"type": "array", "items": "fhir.dstu3.Organization"}, "null"]},
+        {"name": "Practitioner", "type": [{"type": "array", "items": "fhir.dstu3.Practitioner"}, "null"]},
+        {"name": "Procedure", "type": [{"type": "array", "items": "fhir.dstu3.Procedure"}, "null"]},
+        {"name": "Questionnaire", "type": [{"type": "array", "items": "fhir.dstu3.Questionnaire"}, "null"]},
+        {"name": "QuestionnaireResponse", "type": [{"type": "array", "items": "fhir.dstu3.QuestionnaireResponse"}, "null"]}
+    ]
+}

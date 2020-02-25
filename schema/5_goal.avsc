@@ -1,0 +1,23 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Goal",
+    "fields": [
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
+        {"name": "resourceType", "type": "string"},
+        {"name": "lifecycleStatus", "type": ["null","string"]},
+        {"name": "achievementStatus", "type": ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "priority", "type": ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "description", "type": ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "subject", "type": ["null","fhir.dstu3.Reference"]},
+        {"name": "startDate", "type": ["null","string"]},
+        {"name": "startCodeableConcept", "type": ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "target", "type": ["null","fhir.dstu3.Target"]},
+        {"name": "statusDate", "type": ["null","string"]},
+        {"name": "statusReason", "type": ["null","string"]},
+        {"name": "expressedBy", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "outcomeCode", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "outcomeReference", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]}
+    ]
+}

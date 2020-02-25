@@ -1,0 +1,10 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Performer",
+    "fields": [
+        {"name": "function", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "actor", "type": "fhir.dstu3.Reference"},
+        {"name": "onBehalfOf", "type": ["null", "fhir.dstu3.Reference"]}
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Diagnosis",
+    "fields": [
+        {"name": "condition", "type": "fhir.dstu3.Reference"},
+        {"name": "use", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "rank", "type": ["null", "int"]}
+    ]
+}

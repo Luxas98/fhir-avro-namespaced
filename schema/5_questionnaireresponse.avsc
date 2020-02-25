@@ -1,0 +1,20 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "QuestionnaireResponse",
+    "fields": [
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "resourceType", "type": "string"},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "fhir.dstu3.Identifier", "null"]},
+        {"name": "basedOn", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "partOf", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "questionnaire", "type": ["null", "string"]},
+        {"name": "status", "type": "string"},
+        {"name": "subject", "type": ["null","fhir.dstu3.Reference"]},
+        {"name": "encounter", "type": ["null","fhir.dstu3.Reference"]},
+        {"name": "authored", "type": ["null", "string"]},
+        {"name": "author", "type": ["null","fhir.dstu3.Reference"]},
+        {"name": "source", "type": ["null","fhir.dstu3.Reference"]},
+        {"name": "item", "type": [ {"type": "array", "items": "fhir.dstu3.QuestionnaireItem"}, "null"]}
+    ]
+}

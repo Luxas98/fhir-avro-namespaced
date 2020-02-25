@@ -1,0 +1,8 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "CodeableConcept",
+    "fields": [{"name": "coding", "type": [{"type": "array", "items":"fhir.dstu3.Coding"}, "null"]
+    },
+               {"name": "text", "type": ["string", "null"]}]
+}

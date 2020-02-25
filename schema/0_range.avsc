@@ -1,0 +1,9 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Range",
+    "fields": [
+        {"name": "low", "type": ["fhir.dstu3.Quantity", "null"]},
+        {"name": "high", "type": ["fhir.dstu3.Quantity", "null"]}
+    ]
+}

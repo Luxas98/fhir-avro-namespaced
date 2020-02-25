@@ -1,0 +1,29 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Questionnaire",
+    "fields": [
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "resourceType", "type": "string"},
+        {"name": "url", "type": ["null", "string"]},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
+        {"name": "version", "type": ["null", "string"]},
+        {"name": "name", "type": ["null", "string"]},
+        {"name": "title", "type": ["null", "string"]},
+        {"name": "status", "type": "string"},
+        {"name": "experimental", "type": ["null", "boolean"]},
+        {"name": "subjectType", "type": [{"type": "array", "items":"string"}, "null"]},
+        {"name": "date", "type": ["null","string"]},
+        {"name": "publisher", "type": ["null","string"]},
+        {"name": "description", "type": ["null","string"]},
+        {"name": "useContext", "type": [{"type": "array", "items":"fhir.dstu3.UsageContext"}, "null"]},
+        {"name": "jurisdiction", "type": [{"type": "array", "items":"fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "purpose", "type": ["null","string"]},
+        {"name": "copyright", "type": ["null","string"]},
+        {"name": "approvalDate", "type": ["null","string"]},
+        {"name": "lastReviewDate", "type": ["null","string"]},
+        {"name": "effectivePeriod", "type": ["null","fhir.dstu3.Period"]},
+        {"name": "code", "type": [{"type": "array", "items": "fhir.dstu3.Coding"}, "null"]},
+        {"name": "item", "type": [{"type": "array", "items": "fhir.dstu3.QuestionnaireItem"}, "null"]}
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Practitioner",
+    "fields": [
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
+        {"name": "resourceType", "type": "string"},
+        {"name": "active", "type": ["null", "boolean"]},
+        {"name": "qualification", "type": [{"type": "array", "items": "fhir.dstu3.Qualification"}, "null"]}
+    ]
+}

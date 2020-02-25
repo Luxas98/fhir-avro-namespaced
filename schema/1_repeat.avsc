@@ -1,0 +1,24 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Repeat",
+    "fields": [
+        {"name": "boundsDuration", "type": ["null", "fhir.dstu3.Quantity"]},
+        {"name": "boundsRange", "type": ["null", "fhir.dstu3.Range"]},
+        {"name": "boundsPeriod", "type": ["null", "fhir.dstu3.Period"]},
+        {"name": "count", "type": ["null", "int"]},
+        {"name": "countMax", "type": ["null", "int"]},
+        {"name": "duration", "type": ["null", "double"]},
+        {"name": "durationMax", "type": ["null", "double"]},
+        {"name": "durationUnit", "type": ["null", "string"]},
+        {"name": "frequency", "type": ["null", "int"]},
+        {"name": "frequencyMax", "type": ["null", "int"]},
+        {"name": "period", "type": ["null", "double"]},
+        {"name": "periodMax", "type": ["null", "double"]},
+        {"name": "periodUnit", "type": ["null", "string"]},
+        {"name": "dayOfWeek", "type": [ {"type": "array", "items":"string"}, "null"]},
+        {"name": "timeOfDay", "type": [{"type": "array", "items":"string"}, "null"]},
+        {"name": "when", "type": [{"type": "array", "items":"string"}, "null"]},
+        {"name": "offset", "type": ["null", "int"]}
+    ]
+}

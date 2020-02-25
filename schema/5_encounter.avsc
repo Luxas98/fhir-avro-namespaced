@@ -1,0 +1,25 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Encounter",
+    "fields": [
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
+        {"name": "resourceType", "type": "string"},
+        {"name": "status", "type": ["null", "string"]},
+        {"name": "statusHistory", "type": [{"type":"array", "items": "fhir.dstu3.StatusHistory"}, "null"]},
+        {"name": "class", "type": "fhir.dstu3.Coding"},
+        {"name": "type", "type": [{"type": "array", "items":"fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "serviceType", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "subject", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "participant", "type": [{"type": "array", "items":"fhir.dstu3.Participant"}, "null"]},
+        {"name": "period", "type": ["null", "fhir.dstu3.Period"]},
+        {"name": "reasonCode", "type": [{"type": "array", "items":"fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "reasonReference", "type": [{"type": "array", "items":"fhir.dstu3.Reference"}, "null"]},
+        {"name": "diagnosis", "type": [{"type": "array", "items":"fhir.dstu3.Diagnosis"}, "null"]},
+        {"name": "hospitalization", "type": [{"type": "array", "items":"fhir.dstu3.Hospitalization"}, "null"]},
+        {"name": "location", "type": [{"type": "array", "items":"fhir.dstu3.LocationRef"}, "null"]},
+        {"name": "serviceProvider", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "partOf", "type": ["null", "fhir.dstu3.Reference"]}
+    ]
+}

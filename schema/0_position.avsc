@@ -1,0 +1,9 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Position",
+    "fields": [{"name": "longitude", "type": ["null", "string", "float"]},
+               {"name": "latitude", "type": ["null", "string", "float"]},
+                {"name": "altitude", "type": ["null", "string", "float"]}
+    ]
+}

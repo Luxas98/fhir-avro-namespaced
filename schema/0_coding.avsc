@@ -1,0 +1,11 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Coding",
+    "fields": [
+        {"name": "system", "type": ["string", "null"]},
+        {"name": "code", "type": ["string", "null"]},
+        {"name": "display", "type": ["string", "null"]},
+        {"name": "version", "type": ["string", "null"]},
+        {"name": "userSelected", "type": ["boolean", "string", "null"]}]
+}

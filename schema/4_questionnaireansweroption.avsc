@@ -1,0 +1,14 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "QuestionnaireAnswerOption",
+    "fields": [
+        {"name": "valueInteger", "type": ["null","int"]},
+        {"name": "valueDate", "type": ["null","string"]},
+        {"name": "valueTime", "type": ["null","string"]},
+        {"name": "valueString", "type": ["null","string"]},
+        {"name": "valueCoding", "type": ["null","fhir.dstu3.Coding"]},
+        {"name": "valueReference", "type": ["null","fhir.dstu3.Reference"]},
+        {"name": "initialSelected", "type": ["null","boolean"]}
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Reaction",
+    "fields": [
+        {"name": "substance", "type": ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "manifestation", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}]},
+        {"name": "description", "type": ["null", "string"]},
+        {"name": "onset", "type": ["null", "string"]},
+        {"name": "severity", "type": ["null", "string"]},
+        {"name": "exposureRoute", "type": ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "note", "type": [{"type": "array", "items":"string"}, "null"]}
+    ]
+}

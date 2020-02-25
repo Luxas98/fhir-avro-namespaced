@@ -1,0 +1,21 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "QuestionnaireItemAnswer",
+    "fields": [
+        {"name": "valueBoolean", "type": ["null","boolean"]},
+        {"name": "valueDecimal", "type": ["null","double"]},
+        {"name": "valueInteger", "type": ["null","int"]},
+        {"name": "valueDate", "type": ["null","string"]},
+        {"name": "valueDateTime", "type": ["null","string"]},
+        {"name": "valueTime", "type": ["null","string"]},
+        {"name": "valueString", "type": ["null","string"]},
+        {"name": "valueUri", "type": ["null","string"]},
+        {"name": "valueAttachment", "type": ["null","string"]},
+        {"name": "valueCoding", "type": ["null","fhir.dstu3.Coding"]},
+        {"name": "valueQuantity", "type": ["null","fhir.dstu3.Quantity"]},
+        {"name": "valueReference", "type": ["null","fhir.dstu3.Reference"]},
+        {"name": "item", "type": [{"type": "array", "items": "fhir.dstu3.QuestionnaireItem"}, "null"]},
+        {"name": "answer", "type": [{"type": "array", "items": "fhir.dstu3.QuestionnaireItem"}, "null"]}
+    ]
+}

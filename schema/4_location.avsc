@@ -1,0 +1,11 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "LocationRef",
+    "fields": [
+        {"name": "location", "type": "fhir.dstu3.Reference"},
+        {"name": "status", "type": ["null", "string"]},
+        {"name": "physicalType", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "period", "type": ["null", "fhir.dstu3.Period"]}
+    ]
+}

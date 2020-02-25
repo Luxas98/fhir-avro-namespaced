@@ -1,0 +1,32 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Condition",
+    "fields": [
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "resourceType", "type": "string"},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
+        {"name": "clinicalStatus", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "verificationStatus", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "category", "type": [{"type": "array", "items":"fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "severity", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "code", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "bodySite", "type": [{"type": "array", "items":"fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "subject", "type": "fhir.dstu3.Reference"},
+        {"name": "encounter", "type": ["null","fhir.dstu3.Reference"]},
+        {"name": "onsetDateTime", "type": ["null", "string"]},
+        {"name": "onsetAge", "type": ["null", "fhir.dstu3.Range"]},
+        {"name": "onsetPeriod", "type": ["null", "fhir.dstu3.Period"]},
+        {"name": "onsetRange", "type": ["null", "fhir.dstu3.Range"]},
+        {"name": "onsetString", "type": ["null", "string"]},
+        {"name": "abatementDateTime", "type": ["null", "string"]},
+        {"name": "abatementAge", "type": ["null", "fhir.dstu3.Range"]},
+        {"name": "abatementPeriod", "type": ["null", "fhir.dstu3.Period"]},
+        {"name": "abatementRange", "type": ["null", "fhir.dstu3.Range"]},
+        {"name": "abatementString", "type": ["null", "string"]},
+        {"name": "recordedDate", "type": ["null", "string"]},
+        {"name": "recorder", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "asserter", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "note", "type": [{"type": "array", "items":"string"}, "null"]}
+    ]
+}

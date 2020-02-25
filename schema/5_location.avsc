@@ -1,0 +1,22 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Location",
+    "fields": [
+        {"name": "alias", "type": ["null", "string", {"type": "array", "items": "string"}]},
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "status", "type": ["null", "string"]},
+        {"name": "resourceType", "type": "string"},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
+        {"name": "operationalStatus", "type": ["null", "string"]},
+        {"name": "active", "type": ["null", "boolean"]},
+        {"name": "type", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "mode", "type": ["null", "string"]},
+        {"name": "name", "type": ["null", "string"]},
+        {"name": "description", "type": ["null", "string"]},
+        {"name": "physicalType", "type": ["fhir.dstu3.CodeableConcept",{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "position", "type": ["null", "fhir.dstu3.Position"]},
+        {"name": "partOf", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "managingOrganization", "type": ["null", "fhir.dstu3.Reference"]}
+    ]
+}

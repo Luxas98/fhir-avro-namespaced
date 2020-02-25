@@ -1,0 +1,26 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "DiagnosticReport",
+    "fields": [
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "resourceType", "type": "string"},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
+        {"name": "basedOn", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "status", "type": "string"},
+        {"name": "category", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "code", "type": "fhir.dstu3.CodeableConcept"},
+        {"name": "subject", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "encounter", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "effectiveDateTime", "type": ["null","string"]},
+        {"name": "effectivePeriod", "type": ["null","fhir.dstu3.Period"]},
+        {"name": "issued", "type": ["null","string"]},
+        {"name": "performer", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "resultsInterpreter", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "specimen", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "result", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "imagingStudy", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+         {"name": "conclusion", "type": ["null", "string"]},
+        {"name": "conclusionCode", "type": ["null","fhir.dstu3.CodeableConcept"]}
+    ]
+}

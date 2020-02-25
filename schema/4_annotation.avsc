@@ -1,0 +1,11 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Annotation",
+    "fields": [
+        {"name": "authorReference", "type": ["null","fhir.dstu3.Reference"]},
+        {"name": "authorString", "type": ["null", "string"]},
+        {"name": "text", "type": "string"},
+        {"name": "time", "type": ["null", "string"]}
+    ]
+}

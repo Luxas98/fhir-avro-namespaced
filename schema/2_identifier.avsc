@@ -1,0 +1,13 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Identifier",
+    "fields": [
+        {"name": "use", "type": ["string", "null"]},
+        {"name": "type", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "system", "type": ["string", "null"]},
+        {"name": "value", "type": ["string", "null"]},
+        {"name": "period", "type": ["null","fhir.dstu3.Period"]},
+        {"name": "assigner", "type": ["null", "string"]}
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Procedure",
+    "fields": [
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
+        {"name": "resourceType", "type": "string"},
+        {"name": "partOf", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "status", "type": "string"},
+        {"name": "statusReason", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "category", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "code", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "subject", "type":  "fhir.dstu3.Reference"},
+        {"name": "encounter", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "performedDateTime", "type":  ["null","string"]},
+        {"name": "performedPeriod", "type":  ["null","fhir.dstu3.Period"]},
+        {"name": "performedString", "type":  ["null","string"]},
+        {"name": "performedAge", "type":  ["null","fhir.dstu3.Quantity"]},
+        {"name": "performedRange", "type":  ["null","fhir.dstu3.Range"]},
+        {"name": "performer", "type": [{"type": "array", "items": "fhir.dstu3.Performer"}, "null"]},
+        {"name": "location", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "reasonCode", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "reasonReference", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "bodySite", "type":[{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "outcome", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "report", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "complication", "type":[{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "complicationDetail", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "usedReference", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "usedCode", "type":[{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]}
+    ]
+}

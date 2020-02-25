@@ -1,0 +1,29 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "AllergyIntolerance",
+    "fields": [
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "resourceType", "type": "string"},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"},"null"]},
+        {"name": "clinicalStatus", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "verificationStatus", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "category", "type": [{"type": "array", "items":"string"}, "null"]},
+        {"name": "type", "type": ["null", "string"]},
+        {"name": "criticality", "type": ["null", "string"]},
+        {"name": "code", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "patient", "type": "fhir.dstu3.Reference"},
+        {"name": "encounter", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "onsetDateTime", "type": ["null", "string"]},
+        {"name": "onsetAge", "type": ["null", "fhir.dstu3.Range"]},
+        {"name": "onsetPeriod", "type": ["null", "fhir.dstu3.Period"]},
+        {"name": "onsetRange", "type": ["null", "fhir.dstu3.Range"]},
+        {"name": "onsetString", "type": ["null", "string"]},
+        {"name": "recordedDate", "type": ["null", "string"]},
+        {"name": "recorder","type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "asserter","type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "lastOccurrence", "type": ["null", "string"]},
+        {"name": "note", "type": [{"type": "array", "items":"string"}, "null"]},
+        {"name": "reaction", "type": ["null", "fhir.dstu3.Reaction"]}
+    ]
+}
