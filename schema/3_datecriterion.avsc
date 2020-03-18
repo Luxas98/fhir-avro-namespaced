@@ -1,0 +1,9 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "DateCriterion",
+    "fields": [
+        {"name": "code", "type": "fhir.dstu3.CodeableConcept"},
+        {"name": "value", "type": "string"}
+    ]
+}

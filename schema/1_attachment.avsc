@@ -1,0 +1,15 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Attachment",
+    "fields": [
+        {"name": "contentType", "type": ["string", "null"]},
+        {"name": "language", "type": ["string", "null"]},
+        {"name": "data", "type": ["string", "null"]},
+        {"name": "url", "type": ["string", "null"]},
+        {"name": "size", "type": ["string", "null"]},
+        {"name": "hash", "type": ["string", "null"]},
+        {"name": "title", "type": ["string", "null"]},
+        {"name": "creation", "type": ["string", "null"]}
+    ]
+}

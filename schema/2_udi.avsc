@@ -1,0 +1,14 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Udi",
+    "fields": [
+        {"name": "deviceIdentifier", "type": ["null", "string"]},
+        {"name": "name", "type": ["null", "string"]},
+        {"name": "jurisdiction", "type": ["null", "string"]},
+        {"name": "carrierHRF", "type": ["null", "string"]},
+        {"name": "carrierAIDC", "type": ["null", "string"]},
+        {"name": "issuer", "type": ["null", "string"]},
+        {"name": "entryType", "type": ["null", "string"]},
+    ]
+}

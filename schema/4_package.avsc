@@ -1,0 +1,10 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Package",
+    "fields": [
+        {"name": "container", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "content", "type": ["null", {"type": "array", "items": "fhir.dstu3.PackageContent"}]},
+        {"name": "batch", "type": ["null", {"type": "array", "items": "fhir.dstu3.Batch"}]}
+    ]
+}

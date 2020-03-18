@@ -2,9 +2,10 @@
     "namespace": "fhir.dstu3",
     "type": "record",
     "name": "Reference",
-    "fields": [{"name": "reference", "type": ["null", "string"]},
+    "fields": [
+               {"name": "reference", "type": ["null", "string"]},
                {"name": "type", "type": ["null", "string"]},
                {"name": "identifier", "type": ["null", "fhir.dstu3.Identifier"]},
                {"name": "display", "type": ["string", "null"]}
-               ]
+   ]
 }

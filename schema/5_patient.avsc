@@ -6,13 +6,22 @@
         {"name": "id", "type": ["null", "string"]},
         {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
         {"name": "resourceType", "type": "string"},
+        {"name": "active", "type": ["null", "boolean"]},
+        {"name": "name", "type": ["null", {"type": "array", "items": "fhir.dstu3.HumanName"}],
+        {"name": "telecom", "type": ["null", {"type": "array", "items": "fhir.dstu3.ContactPoint"}],
         {"name": "gender", "type": ["null", "string"]},
         {"name": "birthDate", "type": ["null", "string"]},
-        {"name": "age", "type": ["null", "string"]},
-        {"name": "maritalStatus", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "deceasedBoolean", "type": ["null", "boolean"]},
         {"name": "deceasedDateTime", "type": ["null", "string"]},
-        {"name": "managingOrganization", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "address", "type": ["null", {"type": "array", "items": "fhir.dstu3.Address"}],
+        {"name": "maritalStatus", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
+        {"name": "multipleBirthBoolean", "type": ["null", "boolean"]},
+        {"name": "multipleBirthInteger", "type": ["null", "int"]},
+        {"name": "photo", "type": ["null", {"type": "array", "items": "fhir.dstu3.Attachment"}]
+        {"name": "contact", "type": ["null", {"type": "array", "items": "fhir.dstu3.Contact"}]},
+        {"name": "communication", "type": ["null", {"type": "array", "items": "fhir.dstu3.Communication"}]},
         {"name": "generalPractitioner", "type": [{"type": "array", "items":"fhir.dstu3.Reference"}, "null"]}
+        {"name": "managingOrganization", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "link", "type": [{"type": "array", "items":"fhir.dstu3.Link"}, "null"]}
     ]
 }

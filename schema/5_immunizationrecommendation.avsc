@@ -1,0 +1,12 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Immunization",
+    "fields": [
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
+        {"name": "patient", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "recommendation", "type": [{"type":"array", "items": "fhir.dstu3.Recommendation"}]}
+    ]
+
+}

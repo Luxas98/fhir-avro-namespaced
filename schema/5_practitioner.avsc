@@ -7,6 +7,13 @@
         {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
         {"name": "resourceType", "type": "string"},
         {"name": "active", "type": ["null", "boolean"]},
-        {"name": "qualification", "type": [{"type": "array", "items": "fhir.dstu3.Qualification"}, "null"]}
+        {"name": "name", "type": [{"type": "array", "items": "fhir.dstu3.HumanName"}, "null"]},
+        {"name": "telecom", "type": [{"type": "array", "items": "fhir.dstu3.ContactPoint"}, "null"]},
+        {"name": "address", "type": ["null", {"type": "array", "items": "fhir.dstu3.Address"}],
+        {"name": "gender", "type": ["null", "string"]},
+        {"name": "birthDate", "type": ["null", "string"]},
+        {"name": "photo", "type": ["null", {"type": "array", "items": "fhir.dstu3.Attachment"}],
+        {"name": "qualification", "type": [{"type": "array", "items": "fhir.dstu3.Qualification"}, "null"]},
+        {"name": "communication", "type": ["null", {"type": "array", "items": "fhir.dstu3.Communication"}]}
     ]
 }

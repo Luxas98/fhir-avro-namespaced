@@ -1,0 +1,11 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "DoseAndRate",
+    "fields": [
+        {"name": "schedule", "type": ["null", "fhir.dstu3.Timing"]},
+        {"name": "quantity", "type": ["null","fhir.dstu3.Quantity"]},
+        {"name": "rateQuantity", "type": ["null","fhir.dstu3.Quantity"]}
+        {"name": "rateRatio", "type": ["null","fhir.dstu3.Ratio"]}
+    ]
+}

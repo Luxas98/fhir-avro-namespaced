@@ -3,13 +3,16 @@
     "type": "record",
     "name": "Organization",
     "fields": [
-        {"name": "alias", "type": ["string", {"type": "array", "items": "string"}, "null"]},
         {"name": "id", "type": ["null", "string"]},
         {"name": "resourceType", "type": "string"},
         {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
         {"name": "active", "type": ["null", "boolean"]},
         {"name": "type", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
         {"name": "name", "type": ["null", "string"]},
-        {"name": "partOf", "type": ["null","fhir.dstu3.Reference"]}
+        {"name": "alias", "type": ["string", {"type": "array", "items": "string"}, "null"]},
+        {"name": "telecom", "type": ["null", {"type": "array", "items": "fhir.dstu3.ContactPoint"}],
+        {"name": "address", "type": ["null", {"type": "array", "items": "fhir.dstu3.Address"}],
+        {"name": "partOf", "type": ["null","fhir.dstu3.Reference"]},
+        {"name": "contact", "type": ["null", {"type": "array", "items": "fhir.dstu3.Contact"}]}
     ]
 }

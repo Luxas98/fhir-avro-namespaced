@@ -1,0 +1,26 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Device",
+    "fields": [
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "resourceType", "type": "string"},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
+        {"name": "type", "type": ["null", "fhir.dstu3.Udi"]},
+        {"name": "status", "type": ["null", "string"]},
+        {"name": "type", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "lotNumber", "type": ["null", "string"]},
+        {"name": "manufacturer", "type": ["null", "string"]},
+        {"name": "manufactureDate", "type": ["null", "string"]},
+        {"name": "expirationDate", "type": ["null", "string"]},
+        {"name": "model", "type": ["null", "string"]},
+        {"name": "version", "type": ["null", "string"]},
+        {"name": "patient", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "owner", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "contact", "type": [{"type": "array", "items": "fhir.dstu3.ContactPoint"}, "null"]},
+        {"name": "location", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "version", "type": ["null", "string"]},
+        {"name": "note", "type": [{"type": "array", "items": "fhir.dstu3.Annotation"}, "null"]},
+        {"name": "safety", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]}
+    ]
+}

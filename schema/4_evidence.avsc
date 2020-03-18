@@ -1,0 +1,9 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Evidence",
+    "fields": [
+        {"name": "code", "type": ["null", {"type": "array", "items": "fhir.dstu3.CodeableConcept"}]},
+        {"name": "detail", "type": ["null", {"type": "array", "items": "fhir.dstu3.CodeableConcept"}]}
+    ]
+}

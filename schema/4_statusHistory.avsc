@@ -3,7 +3,7 @@
     "type": "record",
     "name": "StatusHistory",
     "fields": [
-        {"name": "code", "type": "string"},
+        {"name": "status", "type": "string"},
         {"name": "period", "type": "fhir.dstu3.Period"}
     ]
 }

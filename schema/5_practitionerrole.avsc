@@ -1,0 +1,23 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "PractitionerRole",
+    "fields": [
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
+        {"name": "resourceType", "type": "string"},
+        {"name": "active", "type": ["null", "boolean"]},
+        {"name": "period", "type": ["null", "fhir.dstu3.Period"]},
+        {"name": "practitioner", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "organization", "type": ["null", "fhir.dstu3.Reference"]}
+        {"name": "code", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "speciality", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "location", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "healthcareService", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "telecom", "type": [{"type": "array", "items": "fhir.dstu3.ContactPoint"}, "null"]},
+        {"name": "availableTime", "type": [{"type": "array", "items": "fhir.dstu3.AvailableTime"}, "null"]},
+        {"name": "notAvailable", "type": [{"type": "array", "items": "fhir.dstu3.NotAvailable"}, "null"]},
+        {"name": "availabilityExceptions", "type": ["null", "string"]},
+        {"name": "endpoint", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]}
+    ]
+}

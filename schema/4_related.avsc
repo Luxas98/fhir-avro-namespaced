@@ -1,0 +1,9 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Related",
+    "fields": [
+        {"name": "type", "type": ["null", "string"]},
+        {"name": "target", "type": "fhir.dstu3.Reference"}
+    ]
+}

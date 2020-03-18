@@ -1,0 +1,7 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Policy",
+    "fields": [{"name": "authority", "type": ["null", "string"]},
+               {"name": "uri", "type": ["null", "string"]}]
+}

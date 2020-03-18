@@ -1,0 +1,11 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "AvailableTime",
+    "fields": [
+        {"name": "daysOfWeek", "type": ["null", {"type": "array", "items": "string"}]},
+        {"name": "allDay", "type": ["null", "boolean"]},
+        {"name": "availableStartTime", "type": ["null", "string"]},
+        {"name": "availableEndTime", "type": ["null", "string"]}
+    ]
+}

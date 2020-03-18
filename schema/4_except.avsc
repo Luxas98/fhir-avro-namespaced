@@ -1,0 +1,17 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Except",
+    "fields": [
+        {"name": "type", "type": ["null","string"]},
+        {"name": "period", "type": ["null","fhir.dstu3.Period"]},
+        {"name": "actor", "type": ["null",{ "type": "array", "items": "fhir.dstu3.Actor"}]},
+        {"name": "action", "type": [{ "type": "array", "items": "fhir.dstu3.CodeableConcept"},"null"]}
+        {"name": "securityLabel", "type": ["null", {"type": "array", "items": "fhir.dstu3.Coding"}]},
+        {"name": "purpose", "type": ["null", {"type": "array", "items": "fhir.dstu3.Coding"}]},
+        {"name": "class", "type": ["null", {"type": "array", "items": "fhir.dstu3.Coding"}]},
+        {"name": "code", "type": ["null", {"type": "array", "items": "fhir.dstu3.Coding"}]},
+        {"name": "dataPeriod", "type": ["null", "fhir.dstu3.Period"]},
+        {"name": "data", "type": ["null", {"type": "array", "items": "fhir.dstu3.Data"}]}
+    ]
+}

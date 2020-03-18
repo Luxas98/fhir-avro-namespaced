@@ -1,0 +1,10 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "ReactionRef",
+    "fields": [
+        {"name": "date", "type": ["null", "string"]},
+        {"name": "detail", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "reported", "type": ["null", "boolean"]}
+    ]
+}

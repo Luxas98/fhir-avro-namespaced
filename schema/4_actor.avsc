@@ -1,0 +1,9 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Actor",
+    "fields": [
+        {"name": "role", "type": "fhir.dstu3.CodeableConcept"},
+        {"name": "reference", "type": "fhir.dstu3.Reference"}
+    ]
+}

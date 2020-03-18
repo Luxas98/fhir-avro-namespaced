@@ -1,0 +1,13 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "OralDiet",
+    "fields": [
+        {"name": "type", "type": ["null", "string", {"type": "array", "items": "fhir.dstu3.CodeableConcept"}]},
+        {"name": "schedule", "type": ["null", "string", {"type": "array", "items": "fhir.dstu3.Timing"}]},
+        {"name": "nutrient", "type": ["null", "string", {"type": "array", "items": "fhir.dstu3.Nutrient"}]},
+        {"name": "texture", "type": ["null", "string", {"type": "array", "items": "fhir.dstu3.Texture"}]},
+        {"name": "fluidConsistencyType", "type": ["null", "string", {"type": "array", "items": "fhir.dstu3.CodeableConcept"}]},
+        {"name": "instruction", "type": ["null", "string"]}
+    ]
+}

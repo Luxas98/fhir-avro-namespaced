@@ -1,0 +1,9 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "PractitionerRef",
+    "fields": [
+        {"name": "role", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
+        {"name": "actor", "type": "fhir.dstu3.Reference"}
+    ]
+}

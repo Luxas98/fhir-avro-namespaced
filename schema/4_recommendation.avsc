@@ -1,0 +1,16 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Recommendation",
+    "fields": [
+        {"name": "date", "type": "string"},
+        {"name": "vaccineCode", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "targetDisease", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "doseNumber", "type": ["null", "int"]},
+        {"name": "forecastStatus", "type": "fhir.dstu3.CodeableConcept"},
+        {"name": "dateCriterion", "type": [{"type":"array", "items": "fhir.dstu3.DateCriterion"}, "null"],
+        {"name": "protocol", "type": ["null", "fhir.dstu3.Protocol"]}
+        {"name": "supportingImmunization", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "supportingPatientInformation", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+    ]
+}

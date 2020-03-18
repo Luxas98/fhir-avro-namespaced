@@ -1,0 +1,15 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "VaccinationProtocol",
+    "fields": [
+        {"name": "doseSequence", "type": "int"},
+        {"name": "description", "type": "string"},
+        {"name": "authority", "type": ["null","fhir.dstu3.Reference"]}
+        {"name": "series", "type": "string"},
+        {"name": "seriesDoses", "type": "int"},
+        {"name": "targetDiseases", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}]},
+        {"name": "doseStatus", "type": "fhir.dstu3.CodeableConcept"},
+        {"name": "doseStatusReason", "type": ["null", "fhir.dstu3.CodeableConcept"]}
+    ]
+}

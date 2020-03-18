@@ -1,0 +1,28 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Consent",
+    "fields": [
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
+        {"name": "resourceType", "type": "string"},
+        {"name": "status", "type": "string"},
+        {"name": "patient", "type": "fhir.dstu3.Reference"},
+        {"name": "period", "type": ["fhir.dstu3.Period", "null"]}
+        {"name": "dateTime", "type": "string"},
+        {"name": "consentingParty", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "actor", "type": [{"type": "array", "items": "fhir.dstu3.Actor"}, "null"]},
+        {"name": "action", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"],
+        {"name": "organization", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "sourceAttachment", "type: ["null", "fhir.dstu3.Attachment"]},
+        {"name": "sourceIdentifier", "type": ["null", "fhir.dstu3.Identifier"]},
+        {"name": "sourceReference", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "policy", "type": ["null", "fhir.dstu3.Policy"]},
+        {"name": "policyRule", "type": ["null", "string"]},
+        {"name": "securityLabel", "type": ["null", {"type": "array", "items": "fhir.dstu3.Coding"}]},
+        {"name": "purpose", "type": ["null", {"type": "array", "items": "fhir.dstu3.Coding"}]},
+        {"name": "dataPeriod", "type": ["null", "fhir.dstu3.Period"]},
+        {"name": "data", "type": ["null", {"type": "array", "items": "fhir.dstu3.Data"}]},
+        {"name": "except", "type": [{"type": "array", "items": "fhir.dstu3.Except"}, "null"]}
+    ]
+}

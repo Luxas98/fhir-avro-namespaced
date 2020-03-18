@@ -1,0 +1,23 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Component",
+    "fields": [
+        {"name": "code", "type": "fhir.dstu3.CodeableConcept"},
+        {"name": "valueQuantity", "type": ["null","fhir.dstu3.Quantity"]},
+        {"name": "valueCodeableConcept", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
+        {"name": "valueString", "type": ["null","string"]},
+        {"name": "valueBoolean", "type": ["null","boolean"]},
+        {"name": "valueInteger", "type": ["null","int"]},
+        {"name": "valueRange", "type": ["null","fhir.dstu3.Range"]},
+        {"name": "valueRatio", "type": ["null","fhir.dstu3.Ratio"]},
+        {"name": "valueSampleData", "type": ["null","fhir.dstu3.SampleData"]},
+        {"name": "valueAttachment", "type": ["null","fhir.dstu3.Attachment"]},
+        {"name": "valueTime", "type": ["null","string"]},
+        {"name": "valueDateTime", "type": ["null","string"]},
+        {"name": "valuePeriod", "type": ["null","fhir.dstu3.Period"]},
+        {"name": "dataAbsentReason", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
+        {"name": "interpretation", "type": [{"type": "array", "items":"fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "referenceRange", "type": ["null","fhir.dstu3.ReferenceRange"]}
+    ]
+}

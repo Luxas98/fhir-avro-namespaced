@@ -1,0 +1,33 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "DeviceRequest",
+    "fields": [
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "resourceType", "type": "string"},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
+        {"name": "definition", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "basedOn", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "priorRequest", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "groupIdentifier", "type": ["fhir.dstu3.Identifier", "null"]},
+        {"name": "status", "type": ["null", "string"]},
+        {"name": "intent", "type": "fhir.dstu3.CodeableConcept"},
+        {"name": "priority", "type": ["null", "string"]},
+        {"name": "codeReference", "type": ["fhir.dstu3.Reference", "null"]},
+        {"name": "codeCodeableConcept", "type": ["fhir.dstu3.CodeableConcept", "null"]},
+        {"name": "subject", "type": "fhir.dstu3.Reference"},
+        {"name": "context", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "occurrenceDateTime", "type":  ["null", "string"]},
+        {"name": "occurrencePeriod", "type":  ["null", "fhir.dstu3.Period"]},
+        {"name": "occurrenceTiming", "type":  ["null", "fhir.dstu3.Timing"]},
+        {"name": "authoredOn", "type": ["null", "string"]},
+        {"name": "requester", "type": ["null","fhir.dstu3.Requester"]},
+        {"name": "performerType", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "performer", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "reasonCode", "type": ["fhir.dstu3.CodeableConcept", {"type": "array", "items":"fhir.dstu3.CodeableConcept"}, "null"]},
+        {"name": "reasonReference", "type": ["null","fhir.dstu3.Reference"]},
+        {"name": "supportingInfo", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "note", "type": [{"type": "array", "items": "fhir.dstu3.Annotation"}, "null"]},
+        {"name": "relevantHistory", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]}
+    ]
+}

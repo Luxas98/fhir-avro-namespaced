@@ -7,5 +7,5 @@
         {"name": "code", "type": ["string", "null"]},
         {"name": "display", "type": ["string", "null"]},
         {"name": "version", "type": ["string", "null"]},
-        {"name": "userSelected", "type": ["boolean", "string", "null"]}]
+        {"name": "userSelected", "type": ["boolean", "null"]}]
 }

@@ -1,0 +1,9 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Nutrient",
+    "fields": [
+        {"name": "modifier", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "amount", "type": ["null","fhir.dstu3.Quantity"]}
+    ]
+}

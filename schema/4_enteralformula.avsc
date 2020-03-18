@@ -1,0 +1,16 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "DoseAndRate",
+    "fields": [
+        {"name": "baseFormulaType", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "baseFormulaProductName", "type": ["null", "string"]},
+        {"name": "additiveFormulaType", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "additiveFormulaProductName", "type": ["null", "string"]},
+        {"name": "caloricDensity", "type": ["null","fhir.dstu3.Quantity"]},
+        {"name": "routeofAdministration", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "routeofAdministration", "type": ["null", {"type": "array", "items": "fhir.dstu3.Administration"}]}
+        {"name": "maxVolumeToDeliver", "type": ["null","fhir.dstu3.Quantity"]},
+        {"name": "administrationInstruction", "type": ["null", "string"]},
+    ]
+}

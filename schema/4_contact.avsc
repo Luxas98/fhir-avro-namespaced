@@ -1,0 +1,14 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Contact",
+    "fields": [
+        {"name": "relationship", "type": ["null", {"type": "array", "items": "fhir.dstu3.CodeableConcept"}]},
+        {"name": "name", "type": ["null", "fhir.dstu3.HumanName"]},
+        {"name": "telecom", "type": ["null", {"name": "relationship", "type": ["null","fhir.dstu3.Reference"]}]},
+        {"name": "address", "type": ["null", "fhir.dstu3.Address"]},
+        {"name": "gender", "type": ["null","string"]},
+        {"name": "organization", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "period", "type": ["fhir.dstu3.Period", "null"]}
+    ]
+}

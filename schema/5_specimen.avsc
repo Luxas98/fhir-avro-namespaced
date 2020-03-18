@@ -1,0 +1,20 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Specimen",
+    "fields": [
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
+        {"name": "resourceType", "type": "string"},
+        {"name": "status", "type": ["null", "string"]},
+        {"name": "type", "type":  ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "subject", "type":  "fhir.dstu3.Reference"},
+        {"name": "receivedTime", "type":  ["null","string"]},
+        {"name": "parent", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "request", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
+        {"name": "collection", "type": ["null", "string", "fhir.dstu3.Collection"]},
+        {"name": "processing", "type": ["null", "string", "fhir.dstu3.Processing"]},
+        {"name": "container", "type": ["null", "string", "fhir.dstu3.Container"]},
+        {"name": "note", "type": [{"type": "array", "items": "fhir.dstu3.Annotation"}, "null"]}
+    ]
+}

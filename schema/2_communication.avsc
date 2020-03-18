@@ -1,0 +1,9 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Address",
+    "fields": [
+        {"name": "language", "type": "fhir.dstu3.CodeableConcept"},
+        {"name": "preferred", "type": ["boolean", "null"]}
+    ]
+}

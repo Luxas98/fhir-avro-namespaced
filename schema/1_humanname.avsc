@@ -1,0 +1,14 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "HumanName",
+    "fields": [
+        {"name": "use", "type": ["string", "null"]},
+        {"name": "text", "type": ["string", "null"]},
+        {"name": "family", "type": ["string", "null"]},
+        {"name": "given", "type": [{"type": "array", "items": "string"}, "null"]},
+        {"name": "prefix", "type": [{"type": "array", "items": "string"}, "null"]},
+        {"name": "suffix", "type": [{"type": "array", "items": "string"}, "null"]},
+        {"name": "period", "type": ["fhir.dstu3.Period", "null"]},
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Immunization",
+    "fields": [
+        {"name": "id", "type": ["null", "string"]},
+        {"name": "identifier", "type": [{"type": "array", "items": "fhir.dstu3.Identifier"}, "null"]},
+        {"name": "resourceType", "type": "string"},
+        {"name": "status", "type": ["null", "string"]},
+        {"name": "notGiven", "type": ["null", "boolean"]},
+        {"name": "vaccineCode", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "patient", "type": "fhir.dstu3.Reference"},
+        {"name": "encounter", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "date", "type": ["null", "string"]},
+        {"name": "primarySource", "type": "boolean"},
+        {"name": "reportOrigin", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "location", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "manufacturer", "type": ["null", "fhir.dstu3.Reference"]},
+        {"name": "lotNumber", "type": ["null", "string"]},
+        {"name": "expirationDate", "type": ["null", "string"]},
+        {"name": "site", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "route", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "doseQuantity", "type": ["null", "fhir.dstu3.Quantity"]},
+        {"name": "practitioner", "type": ["null", "fhir.dstu3.PractitionerRef"]},
+        {"name": "note", "type": [{"type": "array", "items": "fhir.dstu3.Annotation"}, "null"]}
+        {"name": "explanation", "type": ["null", "fhir.dstu3.Explanation"]},
+        {"name": "reaction", "type": ["null", {"type": "array", "items": "fhir.dstu3.ReactionRef"}]},
+        {"name": "vaccinationProtocol", "type": ["null", {"type": "array", "items": "fhir.dstu3.VaccinationProtocol"}]}
+    ]
+
+}

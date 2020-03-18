@@ -8,7 +8,7 @@
         {"name": "description", "type": ["null", "string"]},
         {"name": "onset", "type": ["null", "string"]},
         {"name": "severity", "type": ["null", "string"]},
-        {"name": "exposureRoute", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
+        {"name": "exposureRoute", "type": ["null", "fhir.dstu3.CodeableConcept"]},
         {"name": "note", "type": [{"type": "array", "items":"string"}, "null"]}
     ]
 }

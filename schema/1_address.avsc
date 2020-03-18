@@ -1,0 +1,17 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Address",
+    "fields": [
+        {"name": "use", "type": ["string", "null"]},
+        {"name": "type", "type": ["string", "null"]},
+        {"name": "text", "type": ["string", "null"]},
+        {"name": "line", "type": [{"type": "array", "items":"string"}, "null"]},
+        {"name": "city", "type": ["string", "null"]},
+        {"name": "district", "type": ["string", "null"]},
+        {"name": "state", "type": ["string", "null"]},
+        {"name": "postalCode", "type": ["string", "null"]},
+        {"name": "country", "type": ["string", "null"]},
+        {"name": "period", "type": ["fhir.dstu3.Period", "null"]},
+    ]
+}

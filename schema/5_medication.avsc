@@ -7,10 +7,12 @@
         {"name": "resourceType", "type": "string"},
         {"name": "code", "type": "fhir.dstu3.CodeableConcept"},
         {"name": "status", "type": ["null", "string"]},
+        {"name": "isBrand", "type": ["null", "boolean"]},
+        {"name": "isOverTheCounter", "type": ["null", "boolean"]},
         {"name": "manufacturer", "type": ["null", "fhir.dstu3.Reference"]},
         {"name": "form", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
-        {"name": "amount", "type": ["null", "fhir.dstu3.Ratio"]},
         {"name": "ingredient", "type": [{"type": "array", "items": "fhir.dstu3.Ingredient"}, "null"]},
-        {"name": "batch", "type": ["null", "fhir.dstu3.Batch"]}
+        {"name": "package", "type": ["fhir.dstu3.Package", "null"]},
+        {"name": "image", "type": ["null", {"type": "array", "items": "fhir.dstu3.Attachment"}]
     ]
 }

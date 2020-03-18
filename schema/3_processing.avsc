@@ -1,0 +1,12 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Processing",
+    "fields": [
+        {"name": "description", "type": ["null", "string"]},
+        {"name": "procedure", "type": ["null","fhir.dstu3.CodeableConcept"]},
+        {"name": "additive", "type": ["null", {"type": "array", "items": "fhir.dstu3.Reference"}]},
+        {"name": "timeDateTime", "type": ["null", "string"]},
+        {"name": "timePeriod", "type": ["null","fhir.dstu3.Period"]}
+    ]
+}

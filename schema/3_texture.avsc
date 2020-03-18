@@ -1,0 +1,9 @@
+{
+    "namespace": "fhir.dstu3",
+    "type": "record",
+    "name": "Texture",
+    "fields": [
+        {"name": "modifier", "type": ["null", "fhir.dstu3.CodeableConcept"]},
+        {"name": "foodType", "type": ["null","fhir.dstu3.CodeableConcept"]}
+    ]
+}
