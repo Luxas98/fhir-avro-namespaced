@@ -13,6 +13,6 @@
         {"name": "form", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "ingredient", "type": [{"type": "array", "items": "fhir.dstu3.Ingredient"}, "null"]},
         {"name": "package", "type": ["fhir.dstu3.Package", "null"]},
-        {"name": "image", "type": ["null", {"type": "array", "items": "fhir.dstu3.Attachment"}]
+        {"name": "image", "type": ["null", {"type": "array", "items": "fhir.dstu3.Attachment"}]}
     ]
 }

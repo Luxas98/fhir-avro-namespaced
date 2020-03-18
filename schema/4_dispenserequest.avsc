@@ -6,7 +6,7 @@
         {"name": "validityPeriod", "type": ["null", "fhir.dstu3.Period"]},
         {"name": "numberOfRepeatsAllowed", "type": ["null", "int"]},
         {"name": "quantity", "type": ["null", "fhir.dstu3.Quantity"]},
-        {"name": "expectedSupplyDuration", "type": ["null", "string"]}
+        {"name": "expectedSupplyDuration", "type": ["null", "string"]},
         {"name": "performer", "type": ["null", "fhir.dstu3.Reference"]}
     ]
 }

@@ -9,6 +9,6 @@
         {"name": "given", "type": [{"type": "array", "items": "string"}, "null"]},
         {"name": "prefix", "type": [{"type": "array", "items": "string"}, "null"]},
         {"name": "suffix", "type": [{"type": "array", "items": "string"}, "null"]},
-        {"name": "period", "type": ["fhir.dstu3.Period", "null"]},
+        {"name": "period", "type": ["fhir.dstu3.Period", "null"]}
     ]
 }

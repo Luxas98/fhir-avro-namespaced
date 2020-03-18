@@ -1,7 +1,7 @@
 {
     "namespace": "fhir.dstu3",
     "type": "record",
-    "name": "DoseAndRate",
+    "name": "EnteralFormula",
     "fields": [
         {"name": "baseFormulaType", "type": ["null", "fhir.dstu3.CodeableConcept"]},
         {"name": "baseFormulaProductName", "type": ["null", "string"]},
@@ -9,8 +9,8 @@
         {"name": "additiveFormulaProductName", "type": ["null", "string"]},
         {"name": "caloricDensity", "type": ["null","fhir.dstu3.Quantity"]},
         {"name": "routeofAdministration", "type": ["null", "fhir.dstu3.CodeableConcept"]},
-        {"name": "routeofAdministration", "type": ["null", {"type": "array", "items": "fhir.dstu3.Administration"}]}
+        {"name": "routeofAdministration", "type": ["null", {"type": "array", "items": "fhir.dstu3.Administration"}]},
         {"name": "maxVolumeToDeliver", "type": ["null","fhir.dstu3.Quantity"]},
-        {"name": "administrationInstruction", "type": ["null", "string"]},
+        {"name": "administrationInstruction", "type": ["null", "string"]}
     ]
 }

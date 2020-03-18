@@ -6,7 +6,7 @@
         {"name": "collector", "type": ["null", "fhir.dstu3.Reference"]},
         {"name": "collectedDateTime", "type": ["null", "string"]},
         {"name": "collectedPeriod", "type": ["null", "fhir.dstu3.Period"]},
-        {"name": "quantity", "type": ["null","fhir.dstu3.Quantity"]}
+        {"name": "quantity", "type": ["null","fhir.dstu3.Quantity"]},
         {"name": "method", "type": ["null","fhir.dstu3.CodeableConcept"]},
         {"name": "bodySite", "type": ["null","fhir.dstu3.CodeableConcept"]}
     ]

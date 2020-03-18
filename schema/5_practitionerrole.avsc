@@ -9,7 +9,7 @@
         {"name": "active", "type": ["null", "boolean"]},
         {"name": "period", "type": ["null", "fhir.dstu3.Period"]},
         {"name": "practitioner", "type": ["null", "fhir.dstu3.Reference"]},
-        {"name": "organization", "type": ["null", "fhir.dstu3.Reference"]}
+        {"name": "organization", "type": ["null", "fhir.dstu3.Reference"]},
         {"name": "code", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
         {"name": "speciality", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
         {"name": "location", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},

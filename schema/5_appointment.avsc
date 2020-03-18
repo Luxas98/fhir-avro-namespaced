@@ -24,6 +24,6 @@
         {"name": "comment", "type": ["null", "string"]},
         {"name": "incomingReferral", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
         {"name": "participant", "type": [{"type": "array", "items":"fhir.dstu3.Participant"}]},
-        {"name": "requestedPeriod", "type": [{"type": "array", "items":"fhir.dstu3.Period"}, "null"]},
+        {"name": "requestedPeriod", "type": [{"type": "array", "items":"fhir.dstu3.Period"}, "null"]}
     ]
 }

@@ -4,7 +4,6 @@
     "name": "Data",
     "fields": [
         {"name": "meaning", "type": "string"},
-        {"name": "reference", "type": "fhir.dstu3.Reference"},
-
+        {"name": "reference", "type": "fhir.dstu3.Reference"}
     ]
 }

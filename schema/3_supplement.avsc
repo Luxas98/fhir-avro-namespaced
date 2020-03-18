@@ -1,12 +1,12 @@
 {
     "namespace": "fhir.dstu3",
     "type": "record",
-    "name": "Nutrient",
+    "name": "Supplement",
     "fields": [
         {"name": "type", "type": ["null", "fhir.dstu3.CodeableConcept"]},
         {"name": "productName", "type": ["null", "string"]},
         {"name": "schedule", "type": ["null", {"type": "array", "items": "fhir.dstu3.Timing"}]},
         {"name": "quantity", "type": ["null","fhir.dstu3.Quantity"]},
-        {"name": "instruction", "type": ["null", "string"]},
+        {"name": "instruction", "type": ["null", "string"]}
     ]
 }

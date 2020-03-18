@@ -10,7 +10,7 @@
         {"name": "basedOn", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
         {"name": "partOf", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
         {"name": "status", "type": "string"},
-        {"name": "status", "type": ["null", "boolean"]},
+        {"name": "notDone", "type": ["null", "boolean"]},
         {"name": "notDoneReason", "type": ["null", "fhir.dstu3.CodeableConcept"]},
         {"name": "category", "type": ["null", "fhir.dstu3.CodeableConcept"]},
         {"name": "code", "type": ["null", "fhir.dstu3.CodeableConcept"]},

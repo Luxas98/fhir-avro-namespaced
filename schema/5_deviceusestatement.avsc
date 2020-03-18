@@ -14,7 +14,7 @@
         {"name": "recordedOn", "type": ["null", "string"]},
         {"name": "source", "type": ["null", "fhir.dstu3.Reference"]},
         {"name": "device", "type": "fhir.dstu3.Reference"},
-        {"name": "indication", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]}
+        {"name": "indication", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}, "null"]},
         {"name": "bodySite", "type": ["null", "fhir.dstu3.CodeableConcept"]},
         {"name": "note", "type": [{"type": "array", "items": "fhir.dstu3.Annotation"}, "null"]}
     ]

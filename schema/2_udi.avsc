@@ -9,6 +9,6 @@
         {"name": "carrierHRF", "type": ["null", "string"]},
         {"name": "carrierAIDC", "type": ["null", "string"]},
         {"name": "issuer", "type": ["null", "string"]},
-        {"name": "entryType", "type": ["null", "string"]},
+        {"name": "entryType", "type": ["null", "string"]}
     ]
 }

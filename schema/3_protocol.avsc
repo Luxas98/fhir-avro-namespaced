@@ -4,7 +4,7 @@
     "name": "Protocol",
     "fields": [
         {"name": "doseSequence", "type": ["null", "int"]},
-        {"name": "description", "type": ["null", "string"]}
+        {"name": "description", "type": ["null", "string"]},
         {"name": "authority", "type": ["null", "fhir.dstu3.Reference"]},
         {"name": "series", "type": ["null", "string"]}
     ]

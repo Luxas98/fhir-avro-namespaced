@@ -22,7 +22,7 @@
         {"name": "route", "type": ["null", "fhir.dstu3.CodeableConcept"]},
         {"name": "doseQuantity", "type": ["null", "fhir.dstu3.Quantity"]},
         {"name": "practitioner", "type": ["null", "fhir.dstu3.PractitionerRef"]},
-        {"name": "note", "type": [{"type": "array", "items": "fhir.dstu3.Annotation"}, "null"]}
+        {"name": "note", "type": [{"type": "array", "items": "fhir.dstu3.Annotation"}, "null"]},
         {"name": "explanation", "type": ["null", "fhir.dstu3.Explanation"]},
         {"name": "reaction", "type": ["null", {"type": "array", "items": "fhir.dstu3.ReactionRef"}]},
         {"name": "vaccinationProtocol", "type": ["null", {"type": "array", "items": "fhir.dstu3.VaccinationProtocol"}]}

@@ -7,7 +7,7 @@
         {"name": "description", "type": ["null", "string"]},
         {"name": "type", "type": ["null","fhir.dstu3.CodeableConcept"]},
         {"name": "capacity", "type": ["null","fhir.dstu3.Quantity"]},
-        {"name": "specimenQuantity", "type": ["null","fhir.dstu3.Quantity"]}
+        {"name": "specimenQuantity", "type": ["null","fhir.dstu3.Quantity"]},
         {"name": "additiveCodeableConcept", "type": ["null", "fhir.dstu3.CodeableConcept"]},
         {"name": "additiveReference", "type": ["null", "fhir.dstu3.Reference"]}
     ]

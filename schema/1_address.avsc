@@ -12,6 +12,6 @@
         {"name": "state", "type": ["string", "null"]},
         {"name": "postalCode", "type": ["string", "null"]},
         {"name": "country", "type": ["string", "null"]},
-        {"name": "period", "type": ["fhir.dstu3.Period", "null"]},
+        {"name": "period", "type": ["fhir.dstu3.Period", "null"]}
     ]
 }

@@ -16,6 +16,6 @@
         {"name": "excludeFoodModifier", "type": [{"type": "array", "items":"fhir.dstu3.CodeableConcept"}, "null"]},
         {"name": "oralDiet", "type": ["null","fhir.dstu3.OralDiet"]},
         {"name": "supplement", "type": ["null","fhir.dstu3.Supplement"]},
-        {"name": "enteralFormula", "type": ["null","fhir.dstu3.enteralFormula"]}
+        {"name": "enteralFormula", "type": ["null","fhir.dstu3.EnteralFormula"]}
     ]
 }

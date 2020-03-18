@@ -5,7 +5,7 @@
     "fields": [
         {"name": "doseSequence", "type": "int"},
         {"name": "description", "type": "string"},
-        {"name": "authority", "type": ["null","fhir.dstu3.Reference"]}
+        {"name": "authority", "type": ["null","fhir.dstu3.Reference"]},
         {"name": "series", "type": "string"},
         {"name": "seriesDoses", "type": "int"},
         {"name": "targetDiseases", "type": [{"type": "array", "items": "fhir.dstu3.CodeableConcept"}]},

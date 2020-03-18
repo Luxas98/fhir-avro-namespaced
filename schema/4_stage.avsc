@@ -5,6 +5,6 @@
     "fields": [
         {"name": "summary", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]},
         {"name": "assessment", "type": [{"type": "array", "items": "fhir.dstu3.Reference"}, "null"]},
-        {"name": "type", "type": ["null", "string", "fhir.dstu3.CodeableConcept"]}
+        {"name": "type", "type": ["null", "fhir.dstu3.CodeableConcept"]}
     ]
 }
