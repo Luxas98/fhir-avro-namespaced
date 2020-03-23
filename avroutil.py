@@ -2,7 +2,7 @@ import glob
 import json
 from fastavro import parse_schema
 
-schema_files = glob.glob('schema/*.avsc')
+schema_files = glob.glob('fhir_fastavro/schema/*.avsc')
 schema_files.sort()
 
 fastavro_mappings = {}
