@@ -43,7 +43,7 @@ examples = {
                 "gender": "male",
                 "birthDate": "1980-01-01",
                 "managingOrganization": {
-                    "reference": "Organization/HealthplusAI"
+                    "reference": "Organization/MyOrganization"
                 }
             }""",
     "Observation": """{
