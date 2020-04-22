@@ -20,6 +20,5 @@ for resource_type, resource in fhir.examples.items():
         with open(f'avro/{resource_type}.avro', 'wb+') as avro_output_file:
             avro_output_file.write(avro_data)
     except Exception as e:
-
         print(f'{resource_type}: {e}')
         continue

@@ -7,53 +7,112 @@ validate the resources, and store parsed FHIR jsons into avro format.
 Implemented resources:
 
     Generic:
-        * batch
-        * coding
-        * period
-        * position
-        * quantity
-        * range
-        * codeableconcept
-        * ratio
-        * repeat
-        * idetifier
-        * timing
-        * doseandrate
-        * reference
-        * annotation
-        * diagnosis
-        * dosage
-        * participant
-        * performer
-        * qualification
-        * questionnaire fields
-        * reaction
-        * referencerange
-        * sampledata
-        * stage
-        * substition
-        * target
-        * usagecontext
+        * Batch
+        * Coding
+        * Period
+        * Policy
+        * Position
+        * Quantity
+        * Range
+        * Address
+        * Attachment
+        * Codeableconcept
+        * Contactpoint
+        * HumanName
+        * Ratio
+        * Repeat
+        * Communication
+        * Idetifier
+        * Reference
+        * SampleData
+        * Timing
+        * Udi
+        * Actor
+        * Administration
+        * Annotation
+        * AvailableTime
+        * Collection
+        * Communication
+        * DateCriterion
+        * DoseAndRate
+        * FocalDevice
+        * NotAvailable
+        * Nutrient
+        * PackageConcent
+        * Processing
+        * Protocol
+        * ReactionRef
+        * ReferenceRange
+        * Supplement
+        * Texture
+        * Component
+        * Contact
+        * Container
+        * Data
+        * Diagnosis
+        * DispenseRequest
+        * Dosage
+        * EnteralFormula
+        * Evidence
+        * Except
+        * Explanation
+        * Hospitalization
+        * Link
+        * OralDiet
+        * Package
+        * Participant
+        * Performer
+        * PractitionerRef
+        * Qualification
+        * QuestionaireAnswerOption
+        * QuestionaireEnableWhen
+        * QuestionaireInitial
+        * QuestionaireItem
+        * QuestionaireAnswer
+        * Reaction
+        * Recommendation
+        * Related
+        * Requester
+        * Stage
+        * StatusHistory
+        * Substition
+        * Target
+        * UsageContext
+        * VaccinationProtocol
         
     FHIR Resources:
         * AllergyIntolerance
+        * Appointment
         * Bundle
         * Condition
+        * Consent
+        * Coverate
+        * Device
+        * DeviceRequest
+        * DeviceUsesStatement
         * DiagnosticReport
         * Encounter
+        * Flag
         * Goal
+        * Immunization
+        * ImmunizationRecommendation
         * Ingredient
         * Location
         * Medication
         * MedicationAdministration
         * MedicationDispense
         * MedicationStatement
+        * NutritionOrder
         * Observation
         * Organization
         * Patient
         * Practitioner
+        * PractitionerRole
         * Procedure
+        * ProcedureRequest
         * Questionnaire
+        * QuestionnaireResponse
+        * Specimen* Questionnaire
         
 ### Run example:
 
