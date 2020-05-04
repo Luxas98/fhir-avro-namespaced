@@ -12,7 +12,7 @@ except ImportError:
 
 fastavro_mappings = {}
 
-schema_files = glob.glob('fhir-fastavro/schema/*.avsc')
+schema_files = glob.glob('schema/*.avsc')
 schema_files.sort()
 
 for schema_file in schema_files:
